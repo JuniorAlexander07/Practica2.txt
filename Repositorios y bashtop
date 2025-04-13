@@ -1,5 +1,5 @@
 practica 1 comandos utilizados:
-
+sudo su
 Sudo apt update && apt full-upgrade -y
 grep -rhEo "(http|https)://[a-zA-Z0-9./?=_-]*" /etc/apt/sources.list /etc/apt/sources.list.d/
 apt-cache search bashtop
