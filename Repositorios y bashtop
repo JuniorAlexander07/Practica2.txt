@@ -1,7 +1,10 @@
 practica 1 comandos utilizados:
 sudo su
-Sudo apt update && apt full-upgrade -y
+Sudo apt update
+
+sirve para extraer las URLs de los repositorios APT que están configurados en tu sistema:
 grep -rhEo "(http|https)://[a-zA-Z0-9./?=_-]*" /etc/apt/sources.list /etc/apt/sources.list.d/
+
 apt-cache search bashtop
 apt install bashtop
 bashtop 
